@@ -12,10 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+# Specify phone tech before including full_phone
+$(call inherit-product, vendor/broodrom/config/gsm.mk)
+$(call inherit-product, vendor/broodrom/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/ariesve.mk)
-
-# The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
 # Set those variables here to overwrite the inherited values.
@@ -24,3 +26,7 @@ PRODUCT_DEVICE := ariesve
 PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9001
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=samsung/GT-I9001/GT-I9001:2.3.6/GINGERBREAD/XXKQN:user/release-keys PRIVATE_BUILD_DESC="GT-I9001-user 2.3.6 GINGERBREAD XXKQN release-keys"
+
+

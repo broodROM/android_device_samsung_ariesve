@@ -58,3 +58,9 @@ ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 
 # Enable repeatable keys in recovery
 ro.cwm.enable_key_repeat=true
+
+# broodROM Jellybean Statistics
+ro.romstats.url=http://www.broodplank.net/stats/
+ro.romstats.name=broodROM Jellybean
+ro.romstats.version=Release 4
+ro.romstats.tframe=7

@@ -1,8 +1,8 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/broodrom/config/gsm.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/broodrom/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/full_ariesve.mk)
@@ -11,8 +11,6 @@ PRODUCT_RELEASE_NAME := ariesve
 
 CM_BUILDTYPE := ivendor-release1
 CM_NUMERICAL_VERSION := 1.0.0
-
-$(call inherit-product, $(LOCAL_PATH)/ota-update-center.mk)
 
 # Setup device configuration
 PRODUCT_NAME := cm_ariesve
