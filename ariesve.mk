@@ -146,12 +146,13 @@ PRODUCT_PACKAGES += \
     rild
 
 PRODUCT_PACKAGES += \
-	com.android.future.usb.accessory \
+    com.android.future.usb.accessory \
     hciconfig \
     hcitool \
     libaudioutils \
+    AutoGPS \ 
     AriesParts \
-	RomStats
+    RomStats
 
 # For userdebug builds
 ADDITIONAL_DEFAULT_PROPERTIES += \
