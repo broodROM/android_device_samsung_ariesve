@@ -150,7 +150,7 @@ PRODUCT_PACKAGES += \
     hciconfig \
     hcitool \
     libaudioutils \
-    AutoGPS \ 
+    AutoGPS \
     AriesParts \
     RomStats
 
