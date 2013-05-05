@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     libaudioutils \
     AutoGPS \
     AriesParts \
+    broodParts \
     RomStats
 
 # For userdebug builds
