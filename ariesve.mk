@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     libaudioutils \
     AutoGPS \
     AriesParts \
+    BackupMan \
     broodParts \
     RomStats
 
