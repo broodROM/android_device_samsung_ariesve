@@ -64,3 +64,9 @@ ro.romstats.url=http://www.broodplank.net/stats/
 ro.romstats.name=broodROM Jellybean
 ro.romstats.version=Release 4
 ro.romstats.tframe=7
+
+# broodROM Phone Vibration Pattern Regulator
+# Length of vibration, default is 1000
+ro.phone.vib.length=100 
+# Pause between vibrations, default is 1000
+ro.phone.vib.pause=100   
