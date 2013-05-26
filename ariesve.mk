@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
     AriesParts \
     BackupMan \
     broodParts \
+    InstaVOLT \
     RomStats
 
 # For userdebug builds
