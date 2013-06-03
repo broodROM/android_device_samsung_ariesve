@@ -8,3 +8,8 @@
 
 sleep 1
 echo 3 > /dev/block/mmcblk0p14
+
+# Recovery init.d support
+# scripts runs from /cache/recovery/init.d
+
+busybox run-parts /cache/recovery/init.d/
